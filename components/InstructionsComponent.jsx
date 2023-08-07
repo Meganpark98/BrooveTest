@@ -6,7 +6,7 @@ export default function InstructionsComponent() {
 		<div className={styles.container}>
 			<header className={styles.header_container}>
 				<h1>
-					<span>Web3</span> Broove Testasdf
+					<span>Web3</span> Broove Test
 				</h1>
 
 			</header>
@@ -21,7 +21,7 @@ export default function InstructionsComponent() {
 						<p>Add Components</p>
 					</div>
 				</a>
-				
+
 				<a
 					target={"_blank"}
 					href={"https://createweb3dapp.alchemy.com/#templates"}
