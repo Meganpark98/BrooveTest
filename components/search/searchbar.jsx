@@ -8,6 +8,6 @@ export default function SearchBar() {
         <Magnifying className="vector" alt="Vector" src="vector.svg" />
       </div>
       What are you looking for? || Tracks
-    </div>
+    </div>  
   );
 }
