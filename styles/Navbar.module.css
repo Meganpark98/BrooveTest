@@ -19,7 +19,7 @@
 
 .searchbar {
 	display: flex;
-	justify-content: center;
+	/* justify-content: center; */
 	align-items: center;
 	width: 47.2vw;
 	min-width: 350px;
@@ -28,9 +28,40 @@
 	border-radius: 10px;
 	/* opacity: 0.2; */
 	background: #FFF;
+	padding: 10px 14px 10px 14px;
 
 	/* 투명버튼 */
-	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.083);
+
+}
+
+.searchbarMagnifying {
+	margin-right: 14px;
+}
+
+.searchbarText {
+	color: #B2B2B2;
+	width: 80%;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Pretendard;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+	/* border: 1px solid black; */
+
+}
+
+.vector2 {
+	height: 38px;
+	flex-shrink: 0;
+	stroke-width: 1px;
+	stroke: #FFF;
+	filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.50));
+}
+
+.searchbarSelect {
+	margin-left: 24px;
 }
 
 
@@ -40,23 +71,14 @@
 	cursor: pointer;
 }
 
-.logo_right{
+.logo_right {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
 }
 
-.screen {
-	border: 1px none;
-	height: 28px;
-	position: relative;
-	width: 28px;
-	margin-right: 14px;
-	margin-left: 14px;
-
-}
-
+/* border: 1px solid black; */
 
 .wallet {
 	border: 1px none;
@@ -82,7 +104,8 @@
 	background: var(--unnamed, linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%));
 
 	/* 투명버튼 */
-	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.083);
+
 }
 
 .mypage {
@@ -96,7 +119,8 @@
 	/* opacity: 0.2; */
 	background: var(--unnamed, linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%));
 	/* border: 1px solid black; */
-	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.083);
+
 
 }
 
@@ -114,6 +138,7 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
+
 }
 
 .subnavbarcontents {
@@ -123,9 +148,39 @@
 	width: 100%;
 	height: 50px;
 	padding: 0px 6.1vw 0px 6.1vw;
-	gap: 2rem;
+	/* gap: 2rem; */
+	margin-top: 30px;
+
 }
 
-.contents {
 
+
+.contents {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 34px;
+	padding: 8px 10px 8px 10px;
+	flex-shrink: 0;
+	border-radius: 10px;
+	margin-right: 20px;
+	
+}
+
+.contents:hover {
+	background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+	
+	/* 투명버튼 */
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.083);
+}
+
+
+.contentstext {
+	color: #000;
+	text-align: center;
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: Pretendard;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
 }

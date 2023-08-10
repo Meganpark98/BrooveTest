@@ -37,33 +37,33 @@ const { connectors } = getDefaultWallets({
   chains,
 });
 
-const wagmiClient = createClient({
-  autoConnect: true,
-  connectors,
-  provider,
-});
+// const wagmiClient = createClient({
+//   autoConnect: true,
+//   connectors,
+//   provider,
+// });
 
 export { WagmiConfig, RainbowKitProvider };
 
 function MyApp({ Component, pageProps }) {
-  const router = useRouter()
-  const account = useAccount({
-    onConnect({ address, connector, isReconnected }) {
-      if (!isReconnected) router.reload();
-    },
-  });
+  // const router = useRouter()
+  // const account = useAccount({
+  //   onConnect({ address, connector, isReconnected }) {
+  //     if (!isReconnected) router.reload();
+  //   },
+  // });
   return (
-    <WagmiConfig client={wagmiClient}>
-      <RainbowKitProvider
-        modalSize="compact"
-        initialChain={process.env.NEXT_PUBLIC_DEFAULT_CHAIN}
-        chains={chains}
-      >
+    // <WagmiConfig client={wagmiClient}>
+    //   <RainbowKitProvider
+    //     modalSize="compact"
+    //     initialChain={process.env.NEXT_PUBLIC_DEFAULT_CHAIN}
+    //     chains={chains}
+    //   >
         <MainLayout>
           <Component {...pageProps} />
         </MainLayout>
-      </RainbowKitProvider>
-    </WagmiConfig>
+      /* </RainbowKitProvider>
+    </WagmiConfig> */
   );
 }
 

@@ -1,11 +1,19 @@
 import styles from "../styles/Home.module.css";
 import InstructionsComponent from "../components/InstructionsComponent";
 import ThumbNail from "../components/thumbnail/thumbnail";
+import TrackList from "../components/recommend/tractlist";
+import AlbumList from "../components/recommend/albumlist";
+import PopularTrack from "../components/recommend/populartrack";
+import PopularTrackMaker from "../components/recommend/populartrackmaker";
 
 export default function Home() {
   return (
     <div>
         <ThumbNail />
+        <TrackList />
+        <AlbumList />
+        <PopularTrack />
+        <PopularTrackMaker />
       <main className={styles.main}>
         <InstructionsComponent />
       </main>
