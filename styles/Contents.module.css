@@ -1,0 +1,206 @@
+.main {
+    margin-top: 116px;
+    height: 831px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.text {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+}
+
+.subscribebox {
+    margin-top: 76px;
+    padding: 0px 6.25vw 0px 6.25vw;
+    /* border: 1px solid white; */
+
+}
+
+.subscribe {
+    display: flex;
+    /* border: 1px solid white; */
+    padding-top: 22px;
+}
+
+.emailpart {
+    display: flex;
+    align-items: center;
+    width: 459px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.25);
+    padding-left: 18px;
+
+}
+
+.emailparttext {
+    color: rgba(0, 0, 0, 0.50);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 112.5% */
+    letter-spacing: -0.5px;
+}
+
+.buttonpart {
+    margin-left: 14px;
+    border-radius: 10px;
+    border: 0.5px solid #FFF;
+    background: rgba(255, 255, 255, 0.20);
+    box-shadow: 4px 4px 4px 0px rgba(255, 255, 255, 0.25);
+    padding: 16px 16px 16px 16px;
+}
+
+.buttonparttext {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 112.5% */
+    letter-spacing: -0.5px;
+}
+
+.aboutusbox {
+    margin-top: 112px;
+    /* border: 1px solid white; */
+    padding: 0px 6.25vw 0px 6.25vw;
+
+}
+
+.headlinebox {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.headtext1 {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+    width: 32.08vw;
+    margin-right: 7.77vw;
+}
+
+.headtext2 {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 90% */
+    width: 14vw;
+    margin-right: 14.72vw;
+    letter-spacing: -0.5px;
+}
+
+.headtext3 {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+}
+
+.aboutuscontents {
+    margin-top: 26px;
+    display: flex;
+
+}
+
+.broove_logo {
+    width: 27.67vw;
+    /* height: 100%; */
+    /* cursor: pointer; */
+}
+
+
+
+.aboutusaboutus {
+    width: 32.08vw;
+    margin-right: 7.77vw;
+
+}
+
+.aboutusaboutustext {
+    margin-top: 20px;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.5px;
+}
+
+.aboutuslink {
+    width: 14vw;
+    margin-right: 14.72vw;
+
+}
+
+.linkfloor {
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.linkelement {
+    width: 7vw;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+}
+
+.aboutuscontact {
+    /* width: 14.72vw; */
+
+}
+
+.aboutuscontacttext {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 150% */
+    letter-spacing: -0.5px;
+    /* width: 14.72vw; */
+    
+}
