@@ -202,5 +202,846 @@
     /* 150% */
     letter-spacing: -0.5px;
     /* width: 14.72vw; */
-    
+
 }
+
+
+.tracksearchbackground {
+
+    background: linear-gradient(to top, #ffffff, #d9d9d9, #ffffff);
+    background-size: 100% 526px;
+    background-position: center top, center 10%, center 90%;
+    /* background: linear-gradient(to bottom, #FFF 0%, rgba(103, 103, 103, 0.00) 100%); */
+    height: 526px;
+    margin-top: 73px;
+    border: 1px solid black;
+
+}
+
+.artworksearchbackground {
+
+    background: linear-gradient(to top, #ffffff, #d9d9d9, #ffffff);
+    background-size: 100% 526px;
+    background-position: center top, center 10%, center 90%;
+    /* background: linear-gradient(to bottom, #FFF 0%, rgba(103, 103, 103, 0.00) 100%); */
+    height: 526px;
+    margin-top: 73px;
+    border: 1px solid black;
+
+}
+
+
+.trackbox {
+    padding: 0px 6.25vw 0px 6.25vw;
+    /* margin-bottom: 50px; */
+    /* border: 1px solid black; */
+
+}
+
+
+.artwork {
+    padding: 0px 6.25vw 0px 6.25vw;
+    /* margin-bottom: 50px; */
+    /* border: 1px solid black; */
+    height: 100%;
+}
+
+.trackboxtitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    margin-top: 58px;
+}
+
+.artworkboxtitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    margin-top: 58px;
+}
+
+.trackboxsubtitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    margin-top: 100px;
+}
+
+.artworkboxsubtitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    margin-top: 100px;
+}
+
+.tracksearchbox {
+    display: flex;
+    margin-top: 34px;
+    padding: 20px 24px 20px 24px;
+    align-items: center;
+    /* width: 1260px; */
+    height: 80px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 15px;
+    opacity: 0.8;
+    background: #FFF;
+
+    /* 투명버튼 */
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.tracksearchinput {
+    margin-left: 30px;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 75% */
+    letter-spacing: -0.5px;
+}
+
+
+
+.artworksearchinput {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+
+}
+
+.artworksearchinput2 {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    margin-top: 10px;
+
+}
+
+.trackoptionbox {
+    padding: 0px 6.25vw 0px 6.25vw;
+    display: flex;
+    margin-top: 120px;
+    /* border: 1px solid black; */
+
+}
+
+.sellcostbox {
+    padding: 0px 6.25vw 0px 6.25vw;
+    display: flex;
+    /* border: 1px solid black; */
+
+}
+
+.trackoptionbox2 {
+    padding: 0px 6.25vw 0px 6.25vw;
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.artworkoptionbox {
+    padding: 0px 6.25vw 0px 6.25vw;
+    display: flex;
+    margin-top: 300px;
+    /* border: 1px solid black; */
+
+}
+
+.trackoptionboxunit {
+    width: 386px;
+    margin-right: 106px;
+
+}
+
+.sellcostboxunit {
+    width: 446px;
+    margin-right: 70px;
+
+}
+
+.trackoptionboxunit2 {
+    width: 878px;
+
+}
+
+.artworkoptionboxunit {
+    width: 386px;
+    margin-right: 106px;
+
+}
+
+.trackoptionboxtitle {
+    display: flex;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    margin-bottom: 12px
+}
+
+.artworkoptionboxtitle {
+    display: flex;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    margin-bottom: 12px
+}
+
+
+.trackoptionboxsubtitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    margin-left: 10px;
+}
+
+.trackoptioninput {
+    display: flex;
+    width: 386px;
+}
+
+.trackoptioninput {
+    display: flex;
+    width: 878px;
+}
+
+.artworkoptioninput {
+    display: flex;
+    width: 386px;
+}
+
+.trackoptioninputtext {
+    /* width: 26.8vw; */
+    width: 360px;
+    color: #7A7A7A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 18px; 90% */
+    letter-spacing: -0.5px;
+
+}
+
+.sellcostinputtext {
+    /* width: 26.8vw; */
+    width: 420px;
+    color: #7A7A7A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 18px; 90% */
+    letter-spacing: -0.5px;
+
+}
+
+.trackoptioninputtext2 {
+    width: 878px;
+    color: #7A7A7A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 18px; 90% */
+    letter-spacing: -0.5px;
+
+}
+
+.artworkoptioninputtext {
+    /* width: 26.8vw; */
+    width: 360px;
+    /* border: 1px solid black; */
+    color: #7A7A7A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 18px; 90% */
+    letter-spacing: -0.5px;
+
+}
+
+.artworksearchbox {
+    padding-top: 70px;
+    width: 446px;
+    margin-top: 34px;
+    height: 446px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+    flex-direction: column;
+}
+
+.artworksearchboxinsidetext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #000; */
+    flex-direction: column;
+    height: 70px;
+}
+
+.uploadbackground {
+    background: linear-gradient(to top, #ffffff, #d9d9d9, #ffffff);
+    background-size: 100% 526px;
+    background-position: center top, center 10%, center 90%;
+    /* background: linear-gradient(to bottom, #FFF 0%, rgba(103, 103, 103, 0.00) 100%); */
+    height: 526px;
+    margin-top: 73px;
+    border: 1px solid black;
+}
+
+.uploadtextbox {
+    padding: 0px 6.25vw 0px 6.25vw;
+
+}
+
+.uploadtitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    margin-top: 58px;
+}
+
+.uploadsubtitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 175% */
+    letter-spacing: -0.5px;
+    margin-top: 45px;
+}
+
+.uploadbox {
+    padding: 0px 6.25vw 0px 6.25vw;
+
+}
+
+.uploadboxtitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    /* 75% */
+    letter-spacing: -0.5px;
+    margin-top: 90px
+}
+
+.uploadboxcontents {
+    display: flex;
+    padding-top: 34px;
+
+}
+
+.uploadboxupload {
+    padding-top: 70px;
+
+    width: 446px;
+    height: 446px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 90px; */
+    flex-direction: column;
+
+}
+
+.blank {
+    height: 1000px;
+}
+
+.uploadboxinsidetext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70px;
+}
+
+.uploadinput {
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    /* 150% */
+    letter-spacing: -0.5px;
+}
+
+.uploadexplainbox {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 70px;
+}
+
+.uploadname {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+}
+
+.uploadnameinput {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+    opacity: 0.5;
+    height: 50px;
+    align-items: center;
+    padding-top: 20px;
+    display: flex;
+}
+
+.uploadexplain {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+    margin-top: 50px
+}
+
+.uploadexplaininput {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+    opacity: 0.5;
+    height: 50px;
+    align-items: center;
+    padding-top: 20px;
+    display: flex;
+}
+
+.uploadexplaininput2 {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    opacity: 0.5;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.uploadkeyword {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.uploadkeywordoption {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    margin-left: 10px;
+}
+
+.uploadoptioninput {
+    display: flex;
+    margin-top: 28px;
+    width: 446px;
+}
+
+.uploadoptioninputtext {
+    width: 446px;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    opacity: 0.5;
+}
+
+.uploadtypebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.uploadtypecontent {}
+
+.uploadtypecontent2 {}
+
+.uploadtype {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    margin-top: 50px;
+}
+
+.uploadcustom {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    /* 90% */
+    margin-bottom: 28px;
+    letter-spacing: -0.5px;
+}
+
+.uploadtypeinput {
+    display: flex;
+    margin-top: 28px;
+    width: 196px;
+}
+
+.uploadtypeinputtext {
+    width: 196px;
+    color: #000;
+    /* line-height: 18px;  */
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    opacity: 0.5;
+}
+
+.uploadcustomboxcontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uploadcustomcheckbox {
+    border-radius: 5px;
+    border: 1px solid #000;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.uploadcustomcheckboxexplain {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+    margin-left: 12px;
+}
+
+.sellcostbox {
+    margin-top: 150px;
+}
+
+.sellcosttitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+}
+
+.trackdetailcontents {
+    padding: 0px 6.25vw 0px 6.25vw;
+    margin-top: 68px;
+    display: flex;
+}
+
+.tracktypebox {
+    margin-right: 54px;
+}
+
+.tracktypeselect {
+    width: 196px;
+    height: 18px;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 90% */
+    margin-top: 28px;
+    letter-spacing: -0.5px;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trackkeywordselect {
+    width: 446px;
+    height: 18px;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 90% */
+    margin-top: 28px;
+    letter-spacing: -0.5px;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trackreference {
+    display: flex;
+    align-items: center;
+}
+
+.trackreferenceinput {
+    margin-left: 10px
+}
+
+.tracktypetitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+}
+
+.trackBPMbox {
+    margin-right: 71px;
+}
+
+.trackBPMtitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+}
+
+.trackkeywordbox {}
+
+.trackkeywordtitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+}
+
+.trackdetailcontents2 {
+    padding: 0px 6.25vw 0px 6.25vw;
+    margin-top: 50px;
+    display: flex;
+}
+
+.trackdetailcontents3 {
+    padding: 0px 6.25vw 0px 6.25vw;
+    margin-top: 150px;
+    display: flex;
+}
+
+.howtoselltrackbox {
+    margin-left: 70px;
+}
+
+.howtoselltracktitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+    display: flex;
+}
+
+.howtoselltracksubtitle {
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 112.5% */
+    letter-spacing: -0.5px;
+    margin-left: 8px;
+}
+
+.howtosellcheckboxcontents{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.howtosellcheckbox{
+    border-radius: 5px;
+border: 1px solid #000;
+background: #000;
+width: 22px;
+height: 22px;
+flex-shrink: 0;
+}
+
+.howtosellcheckboxdetail{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Pretendard;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 90% */
+letter-spacing: -0.5px;
+margin-left: 12px;
+margin-right: 43px;
+}
+
+.questionmark{
+    margin-left: 61px;
+}
+

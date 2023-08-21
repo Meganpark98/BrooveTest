@@ -164,6 +164,8 @@
 	flex-shrink: 0;
 	border-radius: 10px;
 	margin-right: 20px;
+	/* border: 1px solid black; */
+
 	
 }
 
@@ -183,4 +185,26 @@
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 600;
+	/* border: 1px solid black; */
+
+}
+
+.uploadContainer {
+
+	flex-direction: column;
+
+}
+
+.uploadOptions {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.uploadOptions:hover {
+	background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+	
+	/* 투명버튼 */
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.083);
 }

@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className={styles.navbar}>
 
       <div className={styles.navbarContents}>
-        <a href="https://alchemy.com/?a=create-web3-dapp" target={"_blank"}>
+        <a href="/">
           <img
             className={styles.broove_logo}
             src="/img/Broove_width.png"
