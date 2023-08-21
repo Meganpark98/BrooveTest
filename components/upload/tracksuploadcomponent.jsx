@@ -106,9 +106,7 @@ export default function TracksUploadComponent() {
                 <Question />
               </div>
             </div>
-
           </div>
-          
         </div>
 
         {/* 구분 */}
@@ -117,19 +115,13 @@ export default function TracksUploadComponent() {
           <div className={styles.trackkeywordbox}>
             <div className={styles.trackkeywordtitle}>발행 가격</div>
             <div className={styles.trackkeywordselect}>
-              <div className={styles.trackreference}>
-                판매 가격
-              </div>
+              <div className={styles.trackreference}>판매 가격</div>
               0원
             </div>
-            
+
             <UnderBar446 />
           </div>
-
-
-          
         </div>
-        
       </div>
     </>
   );

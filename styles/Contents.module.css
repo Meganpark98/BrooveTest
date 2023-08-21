@@ -1012,36 +1012,36 @@
     margin-left: 8px;
 }
 
-.howtosellcheckboxcontents{
+.howtosellcheckboxcontents {
     display: flex;
     margin-top: 20px;
     justify-content: center;
     align-items: center;
 }
 
-.howtosellcheckbox{
+.howtosellcheckbox {
     border-radius: 5px;
-border: 1px solid #000;
-background: #000;
-width: 22px;
-height: 22px;
-flex-shrink: 0;
+    border: 1px solid #000;
+    background: #000;
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
 }
 
-.howtosellcheckboxdetail{
+.howtosellcheckboxdetail {
     color: #000;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Pretendard;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 18px; /* 90% */
-letter-spacing: -0.5px;
-margin-left: 12px;
-margin-right: 43px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 90% */
+    letter-spacing: -0.5px;
+    margin-left: 12px;
+    margin-right: 43px;
 }
 
-.questionmark{
+.questionmark {
     margin-left: 61px;
 }
-
