@@ -1,5 +1,6 @@
 import styles from "../../styles/Contents.module.css";
 import { UnderLine } from "../../public/img/underline";
+import { UnderBar1260Gray } from "../../public/img/underbar1260_gray";
 
 export default function UnderContents() {
   return (
@@ -27,7 +28,7 @@ export default function UnderContents() {
           <div className={styles.headtext2}>USEFUL LINK</div>
           <div className={styles.headtext3}>CONTACT</div>
         </div>
-        <UnderLine />
+        <UnderBar1260Gray />
         <div className={styles.aboutuscontents}>
           <div className={styles.aboutusaboutus}>
             <img
