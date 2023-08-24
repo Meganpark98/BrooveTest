@@ -207,7 +207,6 @@ export default function ChainSearch() {
             <div className={styles.historyChartDetailContent}>수수료</div>
           </div>
           <UnderBar1260 />
-
         </div>
       </div>
     </>
